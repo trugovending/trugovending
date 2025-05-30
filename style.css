@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TruGo Vending</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Inter', sans-serif;
+      background: linear-gradient(180deg, #f4f6f8 0%, #ffffff 100%);
+      color: #222;
+      line-height: 1.6;
+    }
+    header {
+      background: #0a3d62;
+      color: white;
+      padding: 1rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    header img {
+      height: 50px;
+    }
+    nav a {
+      color: white;
+      margin-left: 1.5rem;
+      text-decoration: none;
+      font-weight: 500;
+    }
+    .hero {
+      background: linear-gradient(to right, #0a3d62, #3c6382);
+      color: white;
+      padding: 4rem 2rem;
+      text-align: center;
+    }
+    .hero h1 {
+      font-size: 2.5rem;
+      margin-bottom: 1rem;
+    }
+    .hero p {
+      font-size: 1.25rem;
+      max-width: 700px;
+      margin: auto;
+    }
+    .cta-button {
+      background: #f6b93b;
+      color: #222;
+      padding: 0.75rem 1.5rem;
+      margin-top: 2rem;
+      font-size: 1rem;
+      font-weight: bold;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+    }
+    section {
+      padding: 4rem 2rem;
+      max-width: 1300px;
+      margin: auto;
+    }
+    h2 {
+      font-size: 2rem;
+      font-weight: 800;
+      color: #0a3d62;
+      border-left: 6px solid #f6b93b;
+      padding-left: 1rem;
+      margin-bottom: 2rem;
+    }
+    .features, .why-trugo {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 2rem;
+      justify-content: center;
+    }
+    .feature, .reason {
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+      padding: 2rem;
+      width: 100%;
+      max-width: 500px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      transition: transform 0.3s ease;
+    }
+    .feature img, .reason img {
+      width: 450px;
+      height: 450px;
+      margin-bottom: 1rem;
+      object-fit: cover;
+      border-radius: 12px;
+      transition: transform 0.3s ease;
+    }
+    .feature:hover img, .reason:hover img {
+      transform: scale(1.08);
+    }
+    .feature p, .reason p {
+      font-size: 1.1rem;
+      font-weight: 600;
+      color: #0a3d62;
+      margin-top: 0.5rem;
+    }
+    .contact {
+      background: #dff9fb;
+      border-radius: 12px;
+      padding: 2rem;
+    }
+    .contact input, .contact textarea {
+      width: 100%;
+      padding: 0.75rem;
+      margin-top: 0.5rem;
+      margin-bottom: 1.5rem;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      font-size: 1rem;
+    }
+    footer {
+      text-align: center;
+      padding: 2rem;
+      background: #0a3d62;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="logo.png" alt="TruGo Logo" />
+    <nav>
+      <a href="#services">Services</a>
+      <a href="#why">Why TruGo</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h1>Convenient, Modern Vending Solutions — Anytime, Anywhere.</h1>
+    <p>TruGo Vending provides fully stocked, hassle-free snack and drink machines for apartment buildings, gyms, and offices.</p>
+    <button class="cta-button">Get a Free Machine</button>
+  </section>
+
+  <section id="services">
+    <h2>What We Offer</h2>
+    <div class="features">
+      <div class="feature">
+        <img src="snacks.png" alt="Snacks" />
+        <p><strong>Delicious Snacks & Refreshing Beverages</strong></p>
+      </div>
+      <div class="feature">
+        <img src="healthy.png" alt="Healthy" />
+        <p><strong>Wholesome & Health-Conscious Choices</strong></p>
+      </div>
+      <div class="feature">
+        <img src="maintenance.png" alt="Maintenance" />
+        <p><strong>Fully Stocked. Always Maintained.</strong></p>
+      </div>
+      <div class="feature">
+        <img src="zero-cost.png" alt="No Cost" />
+        <p><strong>No Cost. Just Convenience.</strong></p>
+      </div>
+      <div class="feature">
+        <img src="revenue-share.png" alt="Revenue Share" />
+        <p><strong>Boost Income With Revenue Sharing</strong></p>
+      </div>
+    </div>
+  </section>
+
+  <section id="why">
+    <h2>Why Property Owners Choose TruGo</h2>
+    <div class="why-trugo">
+      <div class="reason">
+        <img src="hassle-free.png" alt="Hassle-Free" />
+        <p><strong>100% Hassle-Free</strong><br>We handle everything—install, stock, maintain.</p>
+      </div>
+      <div class="reason">
+        <img src="modern-machines.png" alt="Modern Machines" />
+        <p><strong>Modern Machines</strong><br>Sleek, secure, and cashless-ready.</p>
+      </div>
+      <div class="reason">
+        <img src="no-cost.png" alt="No Cost" />
+        <p><strong>No Cost to You</strong><br>You get all the perks without the expense.</p>
+      </div>
+    </div>
+  </section>
+
+ 
+
+
+
+
+  <footer>
+    <p>© 2024 TruGo Vending. All rights reserved.</p>
+    <p>Email: trugovending@gmail.com</p>
+  </footer>
+</body>
+</html>
+
+
+#contact h2 {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.contact {
+  background: #fefefe;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.05);
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.contact label {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 0.25rem;
+  color: #0a3d62;
+}
+
+.contact input,
+.contact textarea {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  margin-bottom: 1.25rem;
+  font-size: 1rem;
+  box-sizing: border-box;
+}
+
+#thank-you {
+  text-align: center;
+  font-size: 1.1rem;
+}
